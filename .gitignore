@@ -5,6 +5,7 @@ __pycache__/
 
 #Extra  ignore file
 data
+resnetpotato.pth
 
 # C extensions
 *.so
