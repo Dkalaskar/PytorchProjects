@@ -13,6 +13,7 @@ import uvicorn
 import torch.functional as F
 
 
+
 #Load Model
 model = resnet18(num_classes = 3)
 model.load_state_dict(torch.load('D:/PytorchProjects/resnetpotatoclf/traning/resnetpotato.pth'))
