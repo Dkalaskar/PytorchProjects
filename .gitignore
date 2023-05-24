@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Extra  ignore file
+data
+resnetpotato.pth
+
 # C extensions
 *.so
 
