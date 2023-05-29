@@ -1,0 +1,23 @@
+.Navbar{
+    display: flex;
+    background-color: aqua;
+
+    
+}
+
+
+.Nav{
+    padding-right: 2rem;
+    color: aquamarine;
+  
+    display: flex;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-inline-end:inherit;
+    margin-right: 1rem;
+    padding-inline: 2rem;
+ 
+  
+
+}
