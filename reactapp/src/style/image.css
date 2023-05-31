@@ -1,0 +1,100 @@
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  
+  }
+
+.placeholder {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+label {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+  
+  .placeholder {
+    color: #aaa;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  input[type='file'] {
+    display: none;
+  }
+  
+  label {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .Image{
+    border: 2px solid #ccc;
+    background-color: #e9e9da85;
+  }

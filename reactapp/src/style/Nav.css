@@ -19,5 +19,18 @@
     padding-inline: 2rem;
  
   
+}
+.home{
+    color: red;
+    padding-inline: 5rem;
+   
+}
+.about{
+    color: red;
+    padding-inline: 5rem;
 
+}
+.contact{
+    color: red;
+    padding-inline: 5rem;
 }
