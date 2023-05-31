@@ -1,36 +1,51 @@
-.Navbar{
+.navbar {
     display: flex;
-    background-color: aqua;
-
-    
-}
-
-
-.Nav{
-    padding-right: 2rem;
-    color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
   
+  .navbar-logo {
+    font-size: 24px;
+  }
+  
+  .navbar-links {
     display: flex;
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-inline-end:inherit;
-    margin-right: 1rem;
-    padding-inline: 2rem;
- 
+    align-items: center;
+  }
   
-}
-.home{
-    color: red;
-    padding-inline: 5rem;
-   
-}
-.about{
-    color: red;
-    padding-inline: 5rem;
-
-}
-.contact{
-    color: red;
-    padding-inline: 5rem;
-}
+  .navbar-links a {
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .active .navbar-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .active .navbar-toggle span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .active .navbar-toggle span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  

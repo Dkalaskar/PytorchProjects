@@ -1,33 +1,33 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "../style/Nav.css"
 
 
 
 const Navbar = () => {
-    return(
-        <nav className='Navbar'>
-        <ul className='Nav'>
-        <div className='home'>
-        <li>
-        <a href='/'>Home</a>
-        </li>
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const handleToggle = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    return (
+      <nav className="navbar">
+        <div className="navbar-logo">
+          <h1>Logo</h1>
         </div>
-        <div className='about'>
-        <li>
-        <a href='/about'>About</a>
-        </li>
+        <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
+          <a href="/">Home</a>
+          <a href="About">About</a>
+          <a href="Model">Model</a>
+          <a href="Contact">Contact</a>
         </div>
-        <div className='contact'>
-        <li>
-        <a href='/contct'>Contact</a>
-        </li>
+        <div className="navbar-toggle" onClick={handleToggle}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-
-        </ul>
-        
-
-    </nav>
-   
- );
-};
-export default Navbar;
+      </nav>
+    );
+  };
+  
+  export default Navbar;
