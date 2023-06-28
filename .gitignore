@@ -6,6 +6,10 @@ __pycache__/
 #Extra  ignore file
 data
 resnetpotato.pth
+/cifar10_train_labels.npy
+/cifar10_train_images.npy
+/cifar10_test_labels.npy
+/cifar10_test_images.npy
 
 # C extensions
 *.so
