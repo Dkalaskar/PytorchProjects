@@ -8,3 +8,4 @@ seaborn
 pillow
 opencv-python
 flask
+scikit-learn
